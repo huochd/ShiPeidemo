@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bwie.com.shipeidemo.MainActivity">
+    <Button
+        android:text="图片适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pic"/>
+
+    <Button
+        android:text="布局适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay"/>
+
+    <Button
+        android:text="比重适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wet"/>
+
+    <Button
+        android:text=".9适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ninepci"/>
+
+    <Button
+        android:text="dimension适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dim"/>
+
+    <Button
+        android:text="代码适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ja"/>
+
+    <Button
+        android:text="百分比适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bf"/>
+
+    <Button
+        android:text="Autolayout适配"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/auto"/>
+
+
+</LinearLayout>
